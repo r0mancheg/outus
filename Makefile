@@ -13,3 +13,8 @@ runHW3:
 	cmake -S ./cpp_basic/hw-3 -B ./cpp_basic/hw-3/build && \
 	cmake --build ./cpp_basic/hw-3/build && \
 	./cpp_basic/hw-3/build/game
+
+# hw-4 runners
+hw4build:
+	cmake -S ./cpp_basic/hw-4 -B ./cpp_basic/hw-4/build && \
+	cmake --build ./cpp_basic/hw-4/build
