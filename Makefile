@@ -12,8 +12,12 @@ lect3build:
 runHW3:
 	cmake -S ./cpp_basic/hw-3 -B ./cpp_basic/hw-3/build && \
 	cmake --build ./cpp_basic/hw-3/build && \
-	./cpp_basic/hw-3/build
+	./cpp_basic/hw-3/build/game
 
 runHW4:
 	cmake -S ./cpp_basic/hw-4 -B ./cpp_basic/hw-4/build && \
 	cmake --build ./cpp_basic/hw-4/build
+
+runHW5:
+	cmake -S ./cpp_basic/hw-5 -B ./cpp_basic/hw-5/build && \
+	cmake --build ./cpp_basic/hw-5/build
